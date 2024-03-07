@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-ygmk
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/rhtap-push-goms-tenant/appstudio/devfile-sample-go-basic-ygmk@sha256:95c4c2246b79da919673c5859a6c5c6c6e4fe1e62254c35f5e42beb121638628
+        name: my-go
+        resources: {}
+status: {}
