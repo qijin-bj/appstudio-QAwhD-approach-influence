@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-ygmk
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/qijing/rhtap-push-goms-tenant/appstudio/devfile-sample-go-basic-ygmk@sha256:95c4c2246b79da919673c5859a6c5c6c6e4fe1e62254c35f5e42beb121638628
         name: my-go
         ports:
         - containerPort: 8081
